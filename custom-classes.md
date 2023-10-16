@@ -1,5 +1,10 @@
 # Custom Classes
 
+<!-- 
+Custom Classes in the ComUnity Platform serve as a powerful tool for developers to enhance and customise the functionality of their projects, while simultaneously promoting modularity and separation of business logic.
+-->
+
+
 Custom Classes in the ComUnity Platform serve as a powerful tool for developers to enhance and customise the functionality of their projects, while simultaneously promoting modularity and separation of business logic. They provide a flexible foundation that enables developers to implement specialised behaviours, define unique properties, and introduce custom functionalities that precisely align with their project's requirements.
 
 One notable advantage of Custom Classes is their ability to facilitate the separation of business logic from other components within the project. By encapsulating specific functionalities within these classes, developers can establish a modular code structure, resulting in improved maintainability, readability, and ease of updates. This separation of concerns promotes code reusability and allows for more efficient development and debugging processes.
