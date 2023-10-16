@@ -1,9 +1,9 @@
+---
+ondemandDocs:  Custom Classes
+arr: I am an array of doc snippets
+---
+
 # Custom Classes
-
-<!-- 
-Custom Classes in the ComUnity Platform serve as a powerful tool for developers to enhance and customise the functionality of their projects, while simultaneously promoting modularity and separation of business logic.
--->
-
 
 Custom Classes in the ComUnity Platform serve as a powerful tool for developers to enhance and customise the functionality of their projects, while simultaneously promoting modularity and separation of business logic. They provide a flexible foundation that enables developers to implement specialised behaviours, define unique properties, and introduce custom functionalities that precisely align with their project's requirements.
 
