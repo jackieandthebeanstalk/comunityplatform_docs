@@ -1,4 +1,4 @@
 # Table of contents
 
-* [ComUnity OnDemand Docs POC](README.md)
+* [What is the ComUnity Platform](README.md)
 * [Custom Classes](custom-classes.md)
