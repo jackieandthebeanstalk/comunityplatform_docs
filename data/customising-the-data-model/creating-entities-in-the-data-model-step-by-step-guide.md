@@ -7,24 +7,13 @@ In the ComUnity Developer Toolkit, you have the flexibility to create entities w
 To create a custom entity, follow these steps:
 
 1. In your project settings in the Toolkit navigate to Data then select Diagram or List to view your Data Model.
-2.  Locate the ![](../../.gitbook/assets/image.png) icon on the Diagram or List  (shown below) view. This icon allows you to add a new entity to your data model.\
-    ![](<../../.gitbook/assets/image (1).png>)
+2.  Locate the ![](<../../.gitbook/assets/image (3).png>) icon on the Diagram or List  (shown below) view. This icon allows you to add a new entity to your data model.\
+    ![](<../../.gitbook/assets/image (1) (1).png>)
 
-
-
-    <div align="left">
-
-    <figure><img src="broken-reference" alt="" width="375"><figcaption><p>Diagram view of the Data Model</p></figcaption></figure>
-
-    </div>
-3.  Click ![](broken-reference) icon, and an **Add a new entity** modal window will appear on your screen.\
-
-
-    <div align="left">
-
-    <figure><img src="broken-reference" alt="" width="375"><figcaption></figcaption></figure>
-
-    </div>
+    \
+    ![](../../.gitbook/assets/image.png)
+3. Click ![](<../../.gitbook/assets/image (3).png>) icon, and an **Add a new entity** modal window will appear on your screen.\
+   ![](<../../.gitbook/assets/image (1).png>)
 4. In the **Entity Name** box, provide a descriptive name for your entity. Choose a name that represents the object or concept it represents in your application. Note that a valid entity name  is unique and cannot contain special characters or spaces.
 5. Finally, click on the **Add an entity** button to create your custom entity.
 
@@ -33,14 +22,9 @@ Integrate your existing data seamlessly into your data model using the ComUnity 
 To create an entity from existing SQL Tables, follow these steps:
 
 1. Follow the steps outlined in [Create a Custom Entity](creating-entities-in-the-data-model-step-by-step-guide.md#create-custom-entities) to access the **Add a new entity modal** window.
-2.  In the modal window, under **Create from existing SQL Tables**, you will find a greyed-out select field.\
+2. In the modal window, under **Create from existing SQL Tables**, you will find a greyed-out select field.\
+   ![](<../../.gitbook/assets/image (2).png>)\
 
-
-    <div align="left">
-
-    <figure><img src="broken-reference" alt="" width="375"><figcaption></figcaption></figure>
-
-    </div>
 3. Click on **Create from existing SQL Table** to activate the select field.
 4. Choose an option from the select field that corresponds to the existing SQL table you want to create an entity from.
 5. In the **Entity Name** box, provide a descriptive name for your entity. Choose a name that represents the object or concept it represents in your application. Note that a valid entity name  is unique and cannot contain special characters or spaces.
