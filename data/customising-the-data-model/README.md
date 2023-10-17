@@ -1,0 +1,11 @@
+# Customising the Data Model
+
+In this comprehensive guide, we will explore advanced techniques for customising your data model within the ComUnity Developer Toolkit. Discover how to fine-tune entity configurations, establish complex relationships, apply data annotations, and implement customisations to meet the unique requirements of your application. Gain in-depth knowledge and practical insights on leveraging the full potential of the Toolkit to tailor your data model with precision and flexibility.To get started, select a topic from the list below:
+
+1. 1.​[Creating Entities in the Data Model: Step-by-Step Guide](https://app.gitbook.com/o/v0hmafhved1NwFsQQmjL/s/ts7usaOWKl6I75i4yVg9/toolkit-guides/data/customising-the-data-model/creating-entities-in-the-data-model-step-by-step-guide)​
+2. 2.​[Entity Fields: Customisation and Configuration](https://app.gitbook.com/o/v0hmafhved1NwFsQQmjL/s/ts7usaOWKl6I75i4yVg9/toolkit-guides/data/customising-the-data-model/entity-fields-customisation-and-configuration)​
+3. 3.​[Setting Up Role-Bases Permissions for Entities: Access Control Configuration](https://app.gitbook.com/o/v0hmafhved1NwFsQQmjL/s/ts7usaOWKl6I75i4yVg9/toolkit-guides/data/customising-the-data-model/setting-up-role-based-permissions-for-entities-access-control-configuration)​
+4. 4.​[Creating Entity Associations: Configuring Table Links](https://app.gitbook.com/o/v0hmafhved1NwFsQQmjL/s/ts7usaOWKl6I75i4yVg9/toolkit-guides/data/customising-the-data-model/creating-entity-associations-configuring-table-links)​
+5. 5.​[Managing Inheritance in the Data Model: Configuring Entity Hierarchy and Inheritance](https://app.gitbook.com/o/v0hmafhved1NwFsQQmjL/s/ts7usaOWKl6I75i4yVg9/toolkit-guides/data/customising-the-data-model/managing-inheritance-in-the-data-model-configuring-entity-hierarchy-and-inheritance)​
+
+Each topic will provide detailed guidance and practical examples to help you harness the full potential of the ComUnity Developer Toolkit and tailor your data model with precision and flexibility.Whenever you you make a change to the Data Service you must [Build and launch your project ](https://app.gitbook.com/o/v0hmafhved1NwFsQQmjL/s/ts7usaOWKl6I75i4yVg9/getting-started/manage-your-project/build-and-launch-your-project)so as to ensure that your changes persist, otherwise you risk losing all your work.​
