@@ -7,16 +7,8 @@ In the ComUnity Developer Toolkit, you have the flexibility to create entities w
 To create a custom entity, follow these steps:
 
 1. In your project settings in the Toolkit navigate to Data then select Diagram or List to view your Data Model.
-2.  Locate the  ![](broken-reference) icon on the Diagram or List  (shown below) view. This icon allows you to add a new entity to your data model.
-
-    \
-    &#x20;
-
-    <div align="left">
-
-    <figure><img src="broken-reference" alt="" width="375"><figcaption><p>List view of the Data Model</p></figcaption></figure>
-
-    </div>
+2.  Locate the ![](../../.gitbook/assets/image.png) icon on the Diagram or List  (shown below) view. This icon allows you to add a new entity to your data model.\
+    ![](<../../.gitbook/assets/image (1).png>)
 
 
 
