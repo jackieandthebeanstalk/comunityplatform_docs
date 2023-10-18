@@ -44,4 +44,5 @@ print(f"Writing to output/output.json with {len(all_data)} entries...")
 # Save all data to output/output.json
 absolute_output_path = os.path.join(repository_path, 'output', 'output.json')
 with open(absolute_output_path, 'w') as outfile:
-print("Written to output/output.json")
+    json.dump(all_data, outfile, indent=4)
+    print("Written to output/output.json")
