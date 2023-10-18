@@ -7,9 +7,9 @@
   label: List Title Template
   detail:
     - Sets the default text that will be shown in the title section of a list view item. Values can use the template syntax to populate the text with record field values, for example:
-    - Name: {{=Name}}
-    - or
-    - {{=Description}}
+    - 'Name: {{=Name}}'
+    - 'or'
+    - '{{=Description}}'
   url: https://comunity.gitbook.io/comunity-developer-toolkit/toolkit-guides/data/customising-the-data-model/creating-entities-in-the-data-model-step-by-step-guide#entity-properties
 ---
 
