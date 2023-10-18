@@ -1,4 +1,8 @@
 ---
+1004:
+  label: Custom Code
+  detail: Sets the name that will be used for this entity in the database context
+  url: https://comunity.gitbook.io/comunity-developer-toolkit/toolkit-guides/data/customising-the-data-model/creating-entities-in-the-data-model-step-by-step-guide#entity-properties
 1005:
   label: Custom Code
   detail: Sets the name that will be used for this entity in the database context
