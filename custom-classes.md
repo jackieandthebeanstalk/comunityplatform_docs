@@ -1,6 +1,16 @@
 ---
-ondemandDocs:  Custom Classes
-arr: I am an array of doc snippets
+1005:
+  label: Custom Code
+  detail: Sets the name that will be used for this entity in the database context
+  url: https://comunity.gitbook.io/comunity-developer-toolkit/toolkit-guides/data/customising-the-data-model/creating-entities-in-the-data-model-step-by-step-guide#entity-properties
+1006:
+  label: List Title Template
+  detail:
+    - Sets the default text that will be shown in the title section of a list view item. Values can use the template syntax to populate the text with record field values, for example:
+    - Name: {{=Name}}
+    - or
+    - {{=Description}}
+  url: https://comunity.gitbook.io/comunity-developer-toolkit/toolkit-guides/data/customising-the-data-model/creating-entities-in-the-data-model-step-by-step-guide#entity-properties
 ---
 
 # Custom Classes
