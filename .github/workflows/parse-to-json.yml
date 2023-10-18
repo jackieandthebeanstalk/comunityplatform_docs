@@ -14,5 +14,8 @@ jobs:
     - name: Install necessary packages
       run: sudo apt-get install -y python3-pip && pip3 install pyyaml
 
+    - name: Create output directory
+      run: mkdir -p output
+
     - name: Extract and Parse Frontmatter
       run: python3 .github/scripts/parse_all_yaml_to_json.py
