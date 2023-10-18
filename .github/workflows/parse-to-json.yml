@@ -1,4 +1,4 @@
-name: Parse All YAML Files to JSON
+name: Parse Frontmatter from MD Files
 
 on:
   push:
@@ -14,5 +14,5 @@ jobs:
     - name: Install necessary packages
       run: sudo apt-get install -y python3-pip && pip3 install pyyaml
 
-    - name: Parse All YML Files to JSON
-      run: python3 .github/scripts/parse_all_yaml_to_json.py
+    - name: Extract and Parse Frontmatter
+      run: python3 .github/scripts/parse_md_frontmatter.py
