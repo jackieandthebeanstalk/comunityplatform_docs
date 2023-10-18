@@ -17,6 +17,9 @@ all_data = []  # list to store all frontmatter data
 
 print("Script started!")
 
+# Ensure output directory exists
+os.makedirs('output', exist_ok=True)
+
 # Walk through the repository
 for subdir, _, files in os.walk(repository_path):
     for file in files:
@@ -28,17 +31,17 @@ for subdir, _, files in os.walk(repository_path):
                 frontmatter = extract_frontmatter(content)
                 if frontmatter:
                     print(f"Extracted frontmatter from: {file_path}")
-                else:
-                print(f"No frontmatter in: {file_path}")
-
-                if frontmatter:
                     data = yaml.safe_load(frontmatter)
                     all_data.append(data)
                     output_path = os.path.splitext(file_path)[0] + '-frontmatter.json'
                     with open(output_path, 'w') as f:
                         json.dump(data, f, indent=4)
+                    print(f"Written data to {output_path}")
+                else:
+                    print(f"No frontmatter in: {file_path}")
 
+print(f"Writing to output/output.json with {len(all_data)} entries...")
 # Save all data to output/output.json
 with open('output/output.json', 'w') as outfile:
     json.dump(all_data, outfile, indent=4)
-
+print("Written to output/output.json")
