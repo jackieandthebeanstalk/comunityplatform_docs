@@ -27,6 +27,11 @@ for subdir, _, files in os.walk(repository_path):
                 content = f.read()
                 frontmatter = extract_frontmatter(content)
                 if frontmatter:
+                    print(f"Extracted frontmatter from: {file_path}")
+                else:
+                print(f"No frontmatter in: {file_path}")
+
+                if frontmatter:
                     data = yaml.safe_load(frontmatter)
                     all_data.append(data)
                     output_path = os.path.splitext(file_path)[0] + '-frontmatter.json'
