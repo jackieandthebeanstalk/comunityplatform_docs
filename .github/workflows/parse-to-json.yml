@@ -19,3 +19,8 @@ jobs:
 
     - name: Extract and Parse Frontmatter
       run: python3 .github/scripts/parse_all_yaml_to_json.py
+    - name: Archive output directory
+      uses: actions/upload-artifact@v2
+      with:
+           name: output
+           path: ./output/
