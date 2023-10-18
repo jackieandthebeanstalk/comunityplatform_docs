@@ -15,11 +15,14 @@ def extract_frontmatter(md_content):
 
 all_data = []  # list to store all frontmatter data
 
+print("Script started!")
+
 # Walk through the repository
 for subdir, _, files in os.walk(repository_path):
     for file in files:
         if is_md_file(file):
             file_path = os.path.join(subdir, file)
+            print(f"Found MD file: {file_path}")
             with open(file_path, 'r') as f:
                 content = f.read()
                 frontmatter = extract_frontmatter(content)
