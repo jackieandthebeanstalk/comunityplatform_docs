@@ -15,4 +15,4 @@ jobs:
       run: sudo apt-get install -y python3-pip && pip3 install pyyaml
 
     - name: Extract and Parse Frontmatter
-      run: python3 .github/scripts/parse_md_frontmatter.py
+      run: python3 .github/scripts/parse_all_yaml_to_json.py
