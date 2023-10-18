@@ -13,6 +13,8 @@ def extract_frontmatter(md_content):
     matches = re.search(pattern, md_content, re.DOTALL | re.MULTILINE)
     return matches.group(1) if matches else None
 
+all_data = []  # list to store all frontmatter data
+
 # Walk through the repository
 for subdir, _, files in os.walk(repository_path):
     for file in files:
@@ -23,6 +25,12 @@ for subdir, _, files in os.walk(repository_path):
                 frontmatter = extract_frontmatter(content)
                 if frontmatter:
                     data = yaml.safe_load(frontmatter)
+                    all_data.append(data)
                     output_path = os.path.splitext(file_path)[0] + '-frontmatter.json'
                     with open(output_path, 'w') as f:
                         json.dump(data, f, indent=4)
+
+# Save all data to output/output.json
+with open('output/output.json', 'w') as outfile:
+    json.dump(all_data, outfile, indent=4)
+
