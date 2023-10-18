@@ -9,7 +9,7 @@ def is_md_file(filename):
     return filename.endswith('.md')
 
 def extract_frontmatter(md_content):
-    pattern = r'^---\s*\n(.*?\n?)^---\s*\n'
+    pattern = r'^---\s*\n(.*?)\n---\s*\n'
     matches = re.search(pattern, md_content, re.DOTALL | re.MULTILINE)
     return matches.group(1) if matches else None
 
