@@ -1,4 +1,5 @@
 ---
+ignore: false
 1004:
   label: Custom Code
   detail: Sets the name that will be used for this entity in the database context
