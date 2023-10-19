@@ -18,7 +18,7 @@ jobs:
       run: mkdir -p output
 
     - name: Extract and Parse Frontmatter
-      run: python3 .github/scripts/parse_all_yaml_to_json.py
+      run: python3 .github/scripts/script.py
 
     - name: Archive output directory
       uses: actions/upload-artifact@v2
