@@ -30,8 +30,13 @@ for subdir, _, files in os.walk(repository_path):
                 content = f.read()
                 frontmatter = extract_frontmatter(content)
                 if frontmatter:
-                    print(f"Extracted frontmatter from: {file_path}")
                     data = yaml.safe_load(frontmatter)
+                    
+                    # Check if 'ignore' is present and set to true, or if it's absent, then skip processing
+                    if data.get('ignore', True):  # This defaults to True if 'ignore' is not present
+                        print(f"Skipped {file_path} because it is marked for ignoring or doesn't have the 'ignore' flag.")
+                        continue
+
                     all_data.append(data)
                     output_path = os.path.splitext(file_path)[0] + '-frontmatter.json'
                     with open(output_path, 'w') as f:
@@ -46,3 +51,4 @@ absolute_output_path = os.path.join(repository_path, 'output', 'output.json')
 with open(absolute_output_path, 'w') as outfile:
     json.dump(all_data, outfile, indent=4)
     print("Written to output/output.json")
+    
