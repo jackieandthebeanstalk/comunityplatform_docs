@@ -1,3 +1,51 @@
+---
+ignore: false
+2000:
+  label: Inherits from Entity
+  detail: Sets the parent entity
+  url: https://comunity.gitbook.io/comunity-developer-toolkit/toolkit-guides/data/customising-the-data-model/creating-entities-in-the-data-model-step-by-step-guide#entity-properties
+2001:
+  label: Entity Set Name
+  detail: Sets the name that will be used for this entity in the database context
+  url: https://comunity.gitbook.io/comunity-developer-toolkit/toolkit-guides/data/customising-the-data-model/creating-entities-in-the-data-model-step-by-step-guide#entity-properties
+2003:
+  label: Table Name
+  detail: Sets the table name of the current entity
+  url: https://comunity.gitbook.io/comunity-developer-toolkit/toolkit-guides/data/customising-the-data-model/creating-entities-in-the-data-model-step-by-step-guide#entity-properties
+2004:
+  label: Temporal History Table
+  detail: Sets the temporal history table
+  url: https://comunity.gitbook.io/comunity-developer-toolkit/toolkit-guides/data/customising-the-data-model/creating-entities-in-the-data-model-step-by-step-guide#entity-properties
+2005:
+  label: Reset Custom Code
+  detail: Sets the table name of the current entity
+  url: https://comunity.gitbook.io/comunity-developer-toolkit/toolkit-guides/data/customising-the-data-model/creating-entities-in-the-data-model-step-by-step-guide#entity-properties
+2006:
+  label: Custom Code
+  detail: Sets the table name of the current entity
+  url: https://comunity.gitbook.io/comunity-developer-toolkit/toolkit-guides/data/customising-the-data-model/creating-entities-in-the-data-model-step-by-step-guide#entity-properties
+2007:
+  label: List Title Template
+  detail: Sets the table name of the current entity
+  url: https://comunity.gitbook.io/comunity-developer-toolkit/toolkit-guides/data/customising-the-data-model/creating-entities-in-the-data-model-step-by-step-guide#entity-properties
+2008:
+  label: List Detail Template
+  detail: 
+     - Sets the default text that will be shown in the title section of a list view item. Values can use the template syntax to populate the text with record field values, for example:
+    - 'Name: {{=Name}}'
+    - 'or'
+    - '{{=Description}}'
+  url: https://comunity.gitbook.io/comunity-developer-toolkit/toolkit-guides/data/customising-the-data-model/creating-entities-in-the-data-model-step-by-step-guide#entity-properties
+2009:
+  label: Sort Order
+  detail: Sets the sorting of the database results, must be in the OData format when using the Advanced Sort (i.e. Modified desc)
+  url: https://comunity.gitbook.io/comunity-developer-toolkit/toolkit-guides/data/customising-the-data-model/creating-entities-in-the-data-model-step-by-step-guide#entity-properties
+2010:
+  label: Data Service Url
+  detail: Sets the Data Service Url
+  url: https://comunity.gitbook.io/comunity-developer-toolkit/toolkit-guides/data/customising-the-data-model/creating-entities-in-the-data-model-step-by-step-guide#entity-properties
+---
+
 # Creating Entities in the Data Model: Step-by-Step Guide
 
 In the ComUnity Developer Toolkit, you have the flexibility to create entities within your data model in two ways: starting from scratch ( custom entities)  or utilising existing SQL tables. This provides you with the freedom to tailor your data model according to your specific requirements. In this section, we will explore both options, guiding you through the process of creating entities from scratch and mapping them from SQL tables.&#x20;
